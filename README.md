@@ -2,8 +2,6 @@
 
 > **An end-to-end journey of fine-tuning Liquid AI's LFM2.5 hybrid bidirectional encoder as a low-latency, real-time discrete action policy for Pokémon Showdown via `poke-env`.**
 
-
-<video src="https://github.com/Omsupe15/poke_battle_LFM_encoder/blob/main/Recording%202026-10-04%20083540.mp4" width="100%"controls></video>
 ---
 
 ## 📌 Table of Contents
