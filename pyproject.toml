@@ -1,0 +1,28 @@
+[project]
+name = "game-encoder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Om", email = "omsupe15@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "datasets>=5.0.1",
+    "evaluate>=0.4.6",
+    "poke-env>=0.16.1",
+    "torch>=2.14.1",
+    "transformers>=5.18.0",
+]
+
+[project.scripts]
+game-encoder = "game_encoder:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
